@@ -1,6 +1,6 @@
 #pragma once
 #include <stdio.h>
-#include <cstring>
+#include <string>
 #include <stdlib.h>
 #include <time.h>
 
