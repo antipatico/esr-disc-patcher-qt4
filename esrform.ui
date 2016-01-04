@@ -1,0 +1,68 @@
+<ui version="4.0" >
+ <class>ESRForm</class>
+ <widget class="QWidget" name="ESRForm" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>270</width>
+    <height>119</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>ESR Disc Patcher Qt 0.24a</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset>/home/tatsh/usr/share/icons/hicolor/32x32/apps/esr.png</iconset>
+  </property>
+  <widget class="QPushButton" name="buttonPatch" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>85</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>&amp;Patch...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonUnpatch" >
+   <property name="geometry" >
+    <rect>
+     <x>180</x>
+     <y>85</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>&amp;Unpatch...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>252</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>ESR Disc Patcher GUI 0.24a
+Copyright (C) 2008 Bootsector, ffgriever
+Great thanks goes to berion for the graphics
+Ported to Qt 4 by Tatsh 2008</string>
+   </property>
+   <property name="alignment" >
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="esrpatcher.qrc" />
+ </resources>
+ <connections/>
+</ui>
