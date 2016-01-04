@@ -9,8 +9,12 @@ Mirror: https://web.archive.org/web/20150919031500/http://psx-scene.com/forums/f
 
 ### Make instruction
 
-qmake -project
-qmake
+qmake-qt4 -project
+
+qmake-qt4
+
 make
+
+
 
 If you have some kind of problems try to clone the 'C++11' branch.
